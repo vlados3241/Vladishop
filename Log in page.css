@@ -1,0 +1,28 @@
+header{
+    display: flex;
+ }
+ 
+ .header a{
+     text-decoration: none;
+     color: #000;
+     white-space: nowrap;
+ }
+ 
+ .logo{
+     font-size: 250%;
+ }
+ 
+ .header-things{
+    display: inline-block;
+    font-size:150%;
+ }
+ 
+ .icons{
+     font-size:150%;
+     padding-left: 43%;
+     padding-top: 15px;
+ }
+
+ .Log-and-Reg{
+    display: flex;
+ }

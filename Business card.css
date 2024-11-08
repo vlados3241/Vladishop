@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+
+body {
+    font-size: 20px;
+    background-color: black;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+
+}
+
+/* Header style start */
+.header{
+    border-bottom: 1px solid white ;
+    margin-top: -50px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.logo:hover{
+    color: #FFEF86;
+}
+
+.header-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.list-items:hover{
+    color: #3963FA;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.list-items{
+    color: white;
+    list-style-type: none;
+}
+
+.nav-things{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 50px;
+}
+/* Header style end */
+
+/* Body style start */
+.Vladishop-logo a{
+    height: 1230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #FFEF86;
+    text-decoration: none;
+}
+
+.get-start-to-site a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+/* Body style end */
